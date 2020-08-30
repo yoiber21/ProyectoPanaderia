@@ -18,7 +18,7 @@ function App() {
         </div>
         <Switch>
           <div>
-          <Route exact path="/" component={Inicio} />
+          <Route exact path="/"  component={Inicio} />
           </div>
           <div>
           <Route exact path="/factura" component={Factura} />
