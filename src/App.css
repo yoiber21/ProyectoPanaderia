@@ -1,8 +1,21 @@
 body {
   font-family: 'Source Sans Pro' !important;
 }
+.img{
+  width:500px;
+  height: 150%;
+}
+.mt1{
+  margin:30% 20% ;
+}
 .App {
   text-align: center;
+}
+.colores1{
+  background-color:#dbd81c;
+}
+.colores2{
+  background-color: blue;
 }
 .images{
   height:80px;
