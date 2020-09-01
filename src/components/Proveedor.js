@@ -1,9 +1,15 @@
 import React from 'react'
-
+import Footer from "../components/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 function Proveedor(){
     return(
         <div className="">
-            <h1 className="">Modulo de Proveedor</h1>
+            <div className="row">
+                <div className="col-md-6 m-5 mr-5 p-5">
+                    hola
+                </div>
+            </div>
+            <Footer/>
         </div>
     )
 }

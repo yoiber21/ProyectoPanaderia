@@ -17,12 +17,8 @@ function App() {
         <Navbar />
         </div>
         <Switch>
-          <div>
           <Route exact path="/"  component={Inicio} />
-          </div>
-          <div>
           <Route exact path="/factura" component={Factura} />
-          </div>
           <Route exact path="/proveedor" component={Proveedor} />
           <Route exact path="/venta" component={Venta} />
           <Route exact path="/producto" component={Producto} />
