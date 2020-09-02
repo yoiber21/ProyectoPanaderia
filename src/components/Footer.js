@@ -1,10 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import "../Css/Footer.css"
 
 const Footer = () => {
   return (
-    <div className="container-fluid">
-      <footer className="page-footer font-small cyan darken-3 fixed-bottom">
+    <div className="">
+    <div className="row">
+      <div className="col-12">
+      <footer className="pie-pagina page-footer font-small cyan darken-3">
         <div className="container">
           <div className="row">
             <div className="col-md-12 py-5">
@@ -46,6 +49,8 @@ const Footer = () => {
          Yoiber Beitar
         </div>
       </footer>
+      </div>
+    </div>
     </div>
   );
 };

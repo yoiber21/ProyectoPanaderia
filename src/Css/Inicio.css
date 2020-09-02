@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(219, 219, 219);
+}
+
+.Image{
+    display:block;
+    margin:auto;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+div img{
+    size: 1000px;
+}
